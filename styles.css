@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Navigation styles */
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+  
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: steelblue;
+}
+
+/* Image styles */
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Paragraph styles */
+p {
+    padding: 0; /* Changed from 10px to 0 */
+}
+
+/* Main styles */
+main {
+    max-width: 840px; /* Added to limit width */
+}
+
+/* Aside styles */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* Image inside aside */
+aside img {
+    width: 200px; /* Set width to 200px */
+    height: auto;
+}
+
+/* Exclusive styling for profile image inside main */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 15px; /* 1️⃣ Add top margin */
+    border-top: 1px solid #000; /* 2️⃣ Add top border */
+    text-align: center; /* 3️⃣ Align text to center */
+}
