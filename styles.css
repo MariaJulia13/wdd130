@@ -1,5 +1,12 @@
 /* styles.css */
 
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Navigation styles */
 nav {
     background-color: steelblue;
@@ -57,6 +64,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right; /* Floated to the right */
 }
 
 /* Footer styles */
@@ -65,3 +73,27 @@ footer {
     border-top: 1px solid #000; /* 2️⃣ Add top border */
     text-align: center; /* 3️⃣ Align text to center */
 }
+
+/* Class Selectors */
+/* Box class styling */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Additional styles for aside */
+aside {
+    text-align: center;
+    position: relative; /* Position set to relative */
+}
+
+/* Overlay state/country heading on image */
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
