@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+/* Header, Footer, and Grid Combination Styles */
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
 /* Navigation styles */
 nav {
     background-color: steelblue;
@@ -47,8 +53,7 @@ p {
 
 /* Main styles */
 main {
-    max-width: 840px; /* Limit width */
-    margin: 0 auto; /* Center main content */
+    margin: 1rem; /* Adjust margin */
 }
 
 main img {
@@ -103,5 +108,5 @@ footer {
     display: grid;
     grid-template-columns: 20rem 1fr; /* Define column widths */
     gap: 1rem; /* Add space between grid items */
-    align-items: start; /* Align items at the start */
+    align-items: center; /* Align items to the center */
 }
