@@ -11,17 +11,24 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex; /* Use Flexbox for navigation */
+    justify-content: space-evenly; /* Evenly space out the links */
+    align-items: center; /* Center items vertically */
 }
-  
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none; /* Ensure no underline on links */
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: 700; /* Adjust font weight */
 }
 
 /* Heading styles */
 h1 {
     color: steelblue;
+    border-bottom: 1px solid #ccc; /* Add bottom border */
 }
 
 /* Image styles */
@@ -35,12 +42,19 @@ img {
 
 /* Paragraph styles */
 p {
-    padding: 0; /* Changed from 10px to 0 */
+    padding: 10px 0; /* Ensure padding is 10px on top and bottom */
 }
 
 /* Main styles */
 main {
-    max-width: 840px; /* Added to limit width */
+    max-width: 840px; /* Limit width */
+    margin: 0 auto; /* Center main content */
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right; /* Float to the right */
 }
 
 /* Aside styles */
@@ -52,26 +66,26 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative; /* Position set to relative */
 }
 
-/* Image inside aside */
 aside img {
     width: 200px; /* Set width to 200px */
     height: auto;
 }
 
-/* Exclusive styling for profile image inside main */
-main img {
-    width: 150px;
-    height: auto;
-    float: right; /* Floated to the right */
+/* Overlay state/country heading on image */
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 
 /* Footer styles */
 footer {
-    margin-top: 15px; /* 1️⃣ Add top margin */
-    border-top: 1px solid #000; /* 2️⃣ Add top border */
-    text-align: center; /* 3️⃣ Align text to center */
+    margin-top: 15px; /* Add top margin */
+    border-top: 1px solid #000; /* Add top border */
+    text-align: center; /* Align text to center */
 }
 
 /* Class Selectors */
@@ -84,16 +98,10 @@ footer {
     color: #000;
 }
 
-/* Additional styles for aside */
-aside {
-    text-align: center;
-    position: relative; /* Position set to relative */
+/* Grid container styling */
+.grid {
+    display: grid;
+    grid-template-columns: 20rem 1fr; /* Define column widths */
+    gap: 1rem; /* Add space between grid items */
+    align-items: start; /* Align items at the start */
 }
-
-/* Overlay state/country heading on image */
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
