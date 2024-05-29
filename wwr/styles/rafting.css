@@ -129,6 +129,10 @@ main {
     font-size: 0.8rem;
 }
 
+.contact-info iframe {
+    border: 0; /* Remove inline border style */
+}
+
 footer {
     background-color: #333;
     color: #fff;
