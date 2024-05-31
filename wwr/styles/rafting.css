@@ -73,8 +73,8 @@ main {
 
 .hero article img {
     float: right;
-    width: 80px; /* Adjusted size */
-    height: 80px; /* Adjusted size */
+    width: 80px;
+    height: 80px;
     margin: 0 0 10px 10px;
 }
 
@@ -120,8 +120,8 @@ main {
 }
 
 .employee-profiles img {
-    width: 250px; /* Adjusted size */
-    height: 250px; /* Adjusted size */
+    width: 250px;
+    height: 250px;
     margin-bottom: 10px;
 }
 
@@ -130,7 +130,7 @@ main {
 }
 
 .contact-info iframe {
-    border: 0; /* Remove inline border style */
+    border: 0;
 }
 
 footer {
@@ -152,4 +152,88 @@ footer nav.sociallinks {
 footer nav.sociallinks a img {
     width: 30px;
     filter: invert(1);
+}
+
+/* Additions for the Trips page */
+
+.cta {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cta h2 {
+    margin: 0 0 10px;
+}
+
+.cta p {
+    margin: 0 0 20px;
+}
+
+.cta .btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.trip-description {
+    margin-bottom: 20px;
+}
+
+.trip-description h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.trip-description article {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.trip-description img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trip-description h3 {
+    margin: 0 0 10px;
+    color: var(--primary-color);
+}
+
+.trip-table {
+    margin-bottom: 20px;
+}
+
+.trip-table h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
